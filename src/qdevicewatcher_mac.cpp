@@ -46,7 +46,6 @@ static void onDiskDisappear(DADiskRef disk, void *context)
 
 QDeviceWatcherPrivate::~QDeviceWatcherPrivate()
 {
-    stop();
 }
 
 bool QDeviceWatcherPrivate::start()
